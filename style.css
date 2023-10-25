@@ -19,7 +19,7 @@
 }
 
 .hero {
-    background: url('./assets/fog.jpg');
+    background: url('/rowanskye/src/assets/fog.jpg');
     background-size: cover;
     width: 100%;
     overflow: hidden;
