@@ -3,6 +3,11 @@
 :root {
     --primary: #3d3b3a;
     --secondary: #fff;
+    --background: #f8f8f8;
+}
+
+body {
+    background-color: var(--background);
 }
 
 .logo {
@@ -67,12 +72,13 @@
 }
 
 .main {
-    background-color: #f8f8f8;
+    background-color: var(--secondary);
     max-width: 1170px;
     margin: 0 auto 10rem;
     width: 95%;
-    padding: 16rem 0 15rem;
+    padding: 15rem 0;
     position: relative;
     z-index: 900;
-    top: -99px;
+    top: -250px;
+    box-shadow: 0 30px 50px 0 rgba(1,1,1,.15);
 }
