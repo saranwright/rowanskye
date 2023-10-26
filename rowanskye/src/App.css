@@ -18,6 +18,12 @@
     font-size: 20px;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 .hero {
     background: url('./assets/fog.jpg');
     background-size: cover;
@@ -27,15 +33,8 @@
     max-height: 400px;
     text-align: center;
     margin: 20px auto;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: end;
-        -ms-flex-align: end;
-            align-items: end;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: flex-end;
-            justify-content: flex-end;
+    position: relative;
+    z-index: -9000;
 }
 
 .hero h2 {
@@ -64,3 +63,35 @@
     border-color: var(--secondary);
 }
 
+.main {
+    background-color: var(--secondary);
+    max-width: 1170px;
+    min-height: 35vh;
+    margin: 0 auto 10rem;
+    width: 90%;
+    padding: 3rem;
+    position: relative;
+    z-index: 900;
+    top: -250px;
+    box-shadow: 0 20px 40px 0 rgba(1, 1, 1, .15);
+}
+
+.main h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.main p {
+    font-family: 'Fanwood Text', serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.intro .button {
+    margin: 1em!important;
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}

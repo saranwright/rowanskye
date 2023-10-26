@@ -1,6 +1,7 @@
 import Logo from './logo';
 import TopNav from './topnav';
 import Hero from './hero';
+import Main from './main';
 import 'foundation-sites/dist/css/foundation.min.css';
 import './App.css';
 
@@ -10,7 +11,11 @@ function App() {
       <header>
         <Logo />
         <TopNav />
-        <Hero />
+        <div className="container">
+          <Hero />
+          <Main />
+        </div>
+        
       </header>
     </div>
   );
