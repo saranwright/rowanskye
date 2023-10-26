@@ -1,5 +1,5 @@
 import '../App.css';
-import RowanLogo from '../assets/rowanskye_logo.png';
+import RowanLogo from '../assets/rowanskye_logo2.png';
 
 function Logo() {
     return (
