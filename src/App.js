@@ -18,10 +18,12 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}></Route>
       <Route index element={<Home />}></Route>
-      <Route path="/home" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="rowanskye/home" element={<Home />} />
+      <Route path="rowanskye/projects" element={<Projects />} />
+      <Route path="rowanskye/blog" element={<Blog />} />
+      <Route path="rowanskye/contact" element={<Contact />} />
+
+      <Route path="*" element={<Home />}></Route>
     </Routes>
     </div>
   );

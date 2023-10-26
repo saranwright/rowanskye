@@ -5,10 +5,10 @@ import '../App.css';
 function TopNav() {
     return(
         <ul className="menu align-center topnav">
-            <li><Link to="/home">HOME</Link></li>
-            <li><Link to="/projects">PROJECTS</Link></li>
-            <li><Link to="/blog">BLOG</Link></li>
-            <li><Link to="/contact">CONTACT</Link></li>
+            <li><Link to="rowanskye/home">HOME</Link></li>
+            <li><Link to="rowanskye/projects">PROJECTS</Link></li>
+            <li><Link to="rowanskye/blog">BLOG</Link></li>
+            <li><Link to="rowanskye/contact">CONTACT</Link></li>
           </ul>
     );
 }
