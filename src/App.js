@@ -16,12 +16,12 @@ function App() {
         <TopNav />
       </header>
     <Routes>
+      <Route index element={<Home />}></Route>
       <Route path="/home" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
-    <Home />
     </div>
   );
 }
