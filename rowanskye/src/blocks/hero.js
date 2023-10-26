@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import 'foundation-sites/dist/css/foundation.min.css';
 
 
