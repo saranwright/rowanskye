@@ -93,6 +93,14 @@
     font-weight: 500;
 }
 
+.main p.tagline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* border-top: 1px lightgray solid; */
+    border-bottom: 1px lightgray solid;
+}
+
 .button {
     font-family: 'Quicksand', sans-serif!important;
     font-weight: 600;
